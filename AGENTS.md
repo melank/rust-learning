@@ -11,6 +11,7 @@ Cargo workspace を用いて、複数の学習用 crate と 1 つのプロジェ
 
 【リポジトリ構成（必ず守ること）】
 
+```text
 /
 ├─ crates/
 │  ├─ w01_basics/
@@ -32,6 +33,7 @@ Cargo workspace を用いて、複数の学習用 crate と 1 つのプロジェ
 │
 ├─ Cargo.toml     （workspace 定義）
 └─ README.md
+```
 
 ・crates 以下は週ごとの学習課題用 crate
 ・projects/cli_tool は後半で育てるメインプロジェクト
@@ -93,4 +95,3 @@ Codex は以下の流れで作業すること。
 ・不要なフレームワークや依存関係を追加しない
 ・学習目的を逸脱する最適化・過剰な抽象化をしない
 ・既存コードの意図を無視して書き換えない
-
